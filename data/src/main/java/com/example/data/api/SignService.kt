@@ -6,10 +6,5 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface SignService {
-    //로그인
-    @POST("auth/login")
-    suspend fun postSignIn(
-        @Body requestSignIn: RequestSignIn
-    ) : ResponseSignIn
 
 }
