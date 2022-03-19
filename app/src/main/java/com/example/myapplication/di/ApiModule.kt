@@ -8,7 +8,7 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-private const val BASE_URL ="https://asia-northeast3-nadosunbae-server.cloudfunctions.net/api/"
+private const val BASE_URL ="http://smartcity.gimhae.go.kr/smart_tour/dashboard/api/"
 
 val apiModule = module {
 
@@ -24,7 +24,6 @@ val apiModule = module {
         OkHttpClient.Builder()
             .run {
                 HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
-                addInterceptor(get<Interceptor>())
                 build()
             }
 
