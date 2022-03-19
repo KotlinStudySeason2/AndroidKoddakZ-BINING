@@ -13,8 +13,6 @@ abstract class BaseActivity<T : ViewDataBinding>(
     private var _binding: T? = null
     val binding get() = _binding!!
 
-    protected var loadingDialog: Dialog? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = DataBindingUtil.setContentView(this, layoutResId)

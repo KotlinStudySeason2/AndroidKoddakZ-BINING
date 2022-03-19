@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/82104/AndroidKoddakZ-BINING/app/src/main/res/layout/activity_main.xml" value="0.10207700101317123" />
+        <entry key="..\:/Users/82104/AndroidKoddakZ-BINING/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
